@@ -1,4 +1,4 @@
-Add-Type -AssemblyName System.Drawing
+Add-Type -AssemblyName System.Drawing, System.Windows.Forms
 
 # Get primary screen resolution
 $screen = [System.Windows.Forms.Screen]::PrimaryScreen.Bounds
